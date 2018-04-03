@@ -1,0 +1,48 @@
+{
+  "name": "eslint-config-kevinrambaud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rules/index.js",
+  "files": ["rules/"],
+  "engines": {
+    "node": ">=6.10"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "shareable",
+    "personal",
+    "kevin",
+    "rambaud",
+    "kevinrambaud"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinrambaud/eslint-config-kevinrambaud.git"
+  },
+  "author":
+    "Kevin Rambaud <kevin.rambaud@gmail.com> (https://twitter.com/kevinrambaud)",
+  "license": "MIT",
+  "scripts": {
+    "precommit": "lint-staged",
+    "test": "eslint \"rules/**/*.js\""
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.2"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.11.1"
+  },
+  "eslintConfig": {
+    "extends": ["./rules/index.js"]
+  },
+  "lint-staged": {
+    "*.js": ["eslint --fix", "git add"]
+  }
+}
