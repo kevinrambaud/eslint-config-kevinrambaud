@@ -66,8 +66,8 @@ Config setup directly in `package.json`
 
 ## Credits
 
-[Airbnb: JavaScript Style Guide](https://github.com/airbnb/javascript)
-[Prettier : The opinionated code formatter.](https://github.com/prettier/prettier)
+* [Airbnb: JavaScript Style Guide](https://github.com/airbnb/javascript)
+* [Prettier : The opinionated code formatter.](https://github.com/prettier/prettier)
 
 ## License
 
