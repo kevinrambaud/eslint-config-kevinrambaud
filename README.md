@@ -11,7 +11,7 @@ Personal ESLint configuration that includes airbnb-base, prettier and some perso
 ## Installation
 
 ```bash
-npm i --save-dev eslint-config-kevinrambaud
+npm i -D eslint-config-kevinrambaud
 ```
 
 ## Usage
