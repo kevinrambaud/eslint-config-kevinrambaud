@@ -40,7 +40,7 @@
     "prettier": "^1.11.1"
   },
   "eslintConfig": {
-    "extends": ["./rules/index.js"]
+    "extends": "./rules/index.js"
   },
   "lint-staged": {
     "*.js": ["eslint --fix", "git add"]

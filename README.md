@@ -51,7 +51,7 @@ Config setup directly in `package.json`
     "eslint-config-kevinrambaud": "^1.0.0"
   },
   "eslintConfig": {
-    "extends": ["kevinrambaud"]
+    "extends": "kevinrambaud"
   }
 }
 ```
