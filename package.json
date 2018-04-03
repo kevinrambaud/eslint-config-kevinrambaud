@@ -1,7 +1,8 @@
 {
   "name": "eslint-config-kevinrambaud",
   "version": "1.0.0",
-  "description": "",
+  "description":
+    "Personal ESLint configuration that includes airbnb-base, prettier and some personal rules.",
   "main": "rules/index.js",
   "files": ["rules/"],
   "engines": {
