@@ -6,6 +6,9 @@ module.exports = {
     node: true
   },
   extends: ['airbnb-base', 'prettier'],
+  parserOptions: {
+    ecmaVersion: 8
+  },
   plugins: ['prettier'],
   rules: {
     'prettier/prettier': ['error', { singleQuote: true }]
