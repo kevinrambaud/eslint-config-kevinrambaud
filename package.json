@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-kevinrambaud",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Personal ESLint configuration that includes airbnb-base, prettier and some personal rules.",
   "main": "rules/index.js",
   "files": [
@@ -25,7 +25,6 @@
   "author": "Kevin Rambaud <kevin.rambaud@gmail.com> (https://twitter.com/kevinrambaud)",
   "license": "MIT",
   "scripts": {
-    "precommit": "lint-staged",
     "test": "eslint \"rules/**/*.js\""
   },
   "devDependencies": {
@@ -42,6 +41,11 @@
   },
   "eslintConfig": {
     "extends": "./rules/index.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.js": [
