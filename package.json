@@ -30,7 +30,7 @@
   "devDependencies": {
     "eslint": "^5.4.0",
     "husky": "^1.0.0",
-    "lint-staged": "^7.0.2"
+    "lint-staged": "^8.0.3"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^13.1.0",
