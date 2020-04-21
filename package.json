@@ -37,7 +37,7 @@
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-import": "^2.10.0",
     "eslint-plugin-prettier": "^3.0.0",
-    "prettier": "^1.11.1"
+    "prettier": "^2.0.4"
   },
   "eslintConfig": {
     "extends": "./rules/index.js"
